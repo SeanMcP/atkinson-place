@@ -83,3 +83,18 @@ table :is(td, th) {
     padding: 0.5em;
     text-align: center;
 }
+
+.alert {
+    background-color: var(--alert-background-color);
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.alert[data-type="electric"] {
+    --alert-background-color: #fefcb5;
+}
+
+.alert[data-type="water"] {
+    --alert-background-color: #c5f9fe;
+}

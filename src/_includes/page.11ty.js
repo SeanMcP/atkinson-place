@@ -10,6 +10,7 @@ export default function (data) {
         <link rel="stylesheet" href="/main.css">
     </head>
     <body>
+        ${this.alertFn(data)}
         <header>
             <section>
                 <div>Atkinson Place</div>
