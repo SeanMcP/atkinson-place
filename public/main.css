@@ -14,15 +14,31 @@ body {
 }
 
 body>header {
-    align-items: end;
     background-image: url(images/northward.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     font-family: var(--font-family-serif);
     height: 300px;
-    justify-content: center;
-    padding: 2rem;
+}
+
+body>header nav {
+    padding: 0.5rem;
+}
+
+body>header nav a {
+    background-color: hsla(0, 0%, 0%, 0.4);
+    color: var(--background-color);
+    padding: 0.125rem 0.25rem;
+}
+
+body>header nav a:not(:focus, :hover, [aria-current=true]) {
+    text-decoration: none;
+}
+
+body>header nav a:is(:active) {
+    background-color: var(--text-color);
 }
 
 body>header section {
@@ -32,6 +48,10 @@ body>header section {
     outline: 3px solid var(--text-color);
     outline-offset: 2px;
     text-align: center;
+    margin-inline: auto;
+    margin-block-start: auto;
+    margin-block-end: 2rem;
+    display: inline-block
 }
 
 body>header section div:first-child {
@@ -63,6 +83,10 @@ h6 {
 
 :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
     margin-block-start: 1em;
+}
+
+li+li {
+    margin-block-start: 0.25em;
 }
 
 .prose {

@@ -1,5 +1,6 @@
 export default function (data) {
     const heading = data.heading || data.title;
+    console.log(data.page.url)
     return /*html*/`
     <!DOCTYPE html>
     <html lang="en">
@@ -12,6 +13,7 @@ export default function (data) {
     <body>
         ${this.alertFn(data)}
         <header>
+            <nav>${data.mainNavigation.map(link => `<a aria-current="${data.page.url === link.href}" href="${link.href}">${link.label}</a>`).join(" ")}</nav>
             <section>
                 <div>Atkinson Place</div>
                 <div><em>A friendly little street in Wilkinsburg, PA</em></div>
