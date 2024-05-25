@@ -1,0 +1,28 @@
+export default function (data) {
+    const heading = data.heading || data.title;
+    return /*html*/`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>${data.title}</title>
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+        <header>
+            <section>
+                <div>Atkinson Place</div>
+                <div><em>A friendly little street in Wilkinsburg, PA</em></div>
+            </section>
+        </header>
+        <main class="prose">
+            <h1>${heading}</h1>
+            ${data.content}
+        </main>
+        <footer>
+            Made with <span aria-label="love" role="img">💚</span> on Atkinson Place, First Ward, Wilkinsburg, PA
+        </footer>
+    </body>
+    `
+}
