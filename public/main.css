@@ -1,5 +1,6 @@
 body {
     --background-color: #fafafa;
+    --off-background-color: hsl(0, 0%, 90%);
     --text-color: #161616;
     --font-family-sans: system-ui, sans-serif;
     --font-family-serif: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
@@ -23,24 +24,6 @@ body>header {
     height: 300px;
 }
 
-body>header nav {
-    padding: 0.5rem;
-}
-
-body>header nav a {
-    background-color: hsla(0, 0%, 0%, 0.4);
-    color: var(--background-color);
-    padding: 0.125rem 0.25rem;
-}
-
-body>header nav a:not(:focus, :hover, [aria-current=true]) {
-    text-decoration: none;
-}
-
-body>header nav a:is(:active) {
-    background-color: var(--text-color);
-}
-
 body>header section {
     background-color: var(--text-color);
     color: var(--background-color);
@@ -48,9 +31,7 @@ body>header section {
     outline: 3px solid var(--text-color);
     outline-offset: 2px;
     text-align: center;
-    margin-inline: auto;
-    margin-block-start: auto;
-    margin-block-end: 2rem;
+    margin: auto;
     display: inline-block
 }
 
@@ -58,6 +39,25 @@ body>header section div:first-child {
     font-size: 1.5rem;
     font-weight: bold;
     margin-block-end: 0.5rem;
+}
+
+body>nav {
+    background-color: var(--off-background-color);
+    display: flex;
+    justify-content: center;
+}
+
+body>nav a {
+    color: var(--text-color);
+    padding: 0.5rem 0.75rem;
+}
+
+body>nav a[aria-current=true] {
+    background-color: var(--background-color);
+}
+
+body>nav a:not(:focus, :hover) {
+    text-decoration: none;
 }
 
 body>main {
@@ -77,6 +77,7 @@ h5,
 h6 {
     font-family: var(--font-family-serif);
     font-weight: bold;
+    line-height: 1.1;
     margin-block-start: 0;
     margin-block-end: 1rem;
 }
@@ -103,9 +104,13 @@ table {
 }
 
 table :is(td, th) {
-    border: 1px solid #ddd;
+    border: 1px solid var(--off-background-color);
     padding: 0.5em;
     text-align: center;
+}
+
+table th {
+    background-color: var(--off-background-color);
 }
 
 .alert {

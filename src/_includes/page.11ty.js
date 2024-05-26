@@ -13,12 +13,12 @@ export default function (data) {
     <body>
         ${this.alertFn(data)}
         <header>
-            <nav>${data.mainNavigation.map(link => `<a aria-current="${data.page.url === link.href}" href="${link.href}">${link.label}</a>`).join(" ")}</nav>
             <section>
                 <div>Atkinson Place</div>
                 <div><em>A friendly little street in Wilkinsburg, PA</em></div>
             </section>
         </header>
+        <nav>${data.mainNavigation.map(link => `<a aria-current="${data.page.url === link.href}" href="${link.href}">${link.label}</a>`).join(" ")}</nav>
         <main class="prose">
             <h1>${heading}</h1>
             ${data.content}
