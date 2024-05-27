@@ -9,6 +9,7 @@ export default function (data) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="${data.metaDescription || "Information and update from Atkinson Place, a friendly little street on the edge of Blackridge in Wilkinsburg, Pennsylvania"}">
         <title>${data.title}</title>
         <link rel="stylesheet" href="/main.css">
         <link rel="icon" type="image/png" href="/favicon.png">
