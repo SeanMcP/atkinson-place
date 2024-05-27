@@ -27,12 +27,13 @@ body>header {
 body>header section {
     background-color: var(--text-color);
     color: var(--background-color);
-    padding: 1rem;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5rem;
     outline: 3px solid var(--text-color);
     outline-offset: 2px;
+    padding: 1rem;
     text-align: center;
-    margin: auto;
-    display: inline-block
 }
 
 body>header section div:first-child {
@@ -42,22 +43,24 @@ body>header section div:first-child {
 }
 
 body>nav {
-    background-color: var(--off-background-color);
+    background-color: var(--text-color);
     display: flex;
-    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
 }
 
 body>nav a {
-    color: var(--text-color);
-    padding: 0.5rem 0.75rem;
+    color: var(--background-color);
+    text-decoration-skip-ink: auto;
+    text-underline-offset: 0.2em;
 }
 
-body>nav a[aria-current=true] {
-    background-color: var(--background-color);
-}
-
-body>nav a:not(:focus, :hover) {
+body>nav a:not(:focus, :hover, [aria-current]) {
     text-decoration: none;
+}
+
+body>nav a:is(:focus, :hover):not(:active, [aria-current]) {
+    text-decoration-style: dotted;
 }
 
 body>main {
@@ -83,7 +86,7 @@ h6 {
 }
 
 :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
-    margin-block-start: 1em;
+    margin-block-start: 2em;
 }
 
 li+li {
@@ -91,6 +94,7 @@ li+li {
 }
 
 .prose {
+    line-height: 1.4;
     max-width: 80ch;
     margin-inline: auto;
     padding-block: 2rem;
@@ -113,6 +117,8 @@ table th {
     background-color: var(--off-background-color);
 }
 
+/* Functions */
+
 .alert {
     background-color: var(--alert-background-color);
     font-weight: bold;
@@ -126,4 +132,15 @@ table th {
 
 .alert[data-type="water"] {
     --alert-background-color: #c5f9fe;
+}
+
+/* Shortcodes */
+
+.calendar-sc {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.calendar-sc [data-past] {
+    opacity: 0.675;
 }

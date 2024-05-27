@@ -1,7 +1,11 @@
 [
     {
-        "label": "Home",
+        "label": "Atkinson Place",
         "href": "/"
+    },
+    {
+        "label": "Calendar",
+        "href": "/calendar/"
     },
     {
         "label": "Information",

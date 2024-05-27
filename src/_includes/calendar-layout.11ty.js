@@ -9,7 +9,10 @@ export default class {
 
     render(data) {
         return /*html*/`
-        <time datetime="${data.date.toISOString()}">${toReadableDate(data.date)}</time>
+        <div>
+            <time datetime="${data.date.toISOString()}">${toReadableDate(data.date)}</time>
+            ${data.hours ? `<span>from ${data.hours}</span>` : ""}
+        </div>
         ${data.content}
         `;
     }

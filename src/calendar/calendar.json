@@ -1,0 +1,5 @@
+{
+    "tags": "calendar",
+    "layout": "calendar-layout.11ty.js",
+    "permalink": "calendar/{{ page.date | date: '%Y-%m-%d' }}-{{ page.fileSlug }}/"
+}
