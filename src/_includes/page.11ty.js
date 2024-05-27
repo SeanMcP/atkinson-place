@@ -17,7 +17,7 @@ export default function (data) {
     <body>
         ${this.alertFn(data)}
         <nav>${joinMap(data.mainNavigation, link => `
-            <a ${data.page.url === link.href ? "aria-current=page" : ""} ${link['aria-label'] ? "aria-label=" + link['aria-label'] : ""} href="${link.href}">${link.label}</a>
+            <a ${data.page.url === link.href ? "aria-current=page" : ""} ${link.descriptiveLabel ? `aria-label="${link.descriptiveLabel}"` : ""} href="${link.href}">${link.label}</a>
         `)}</nav>
         <header>
             <section>

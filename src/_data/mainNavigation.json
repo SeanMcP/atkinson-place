@@ -8,7 +8,7 @@
         "href": "/calendar/"
     },
     {
-        "aria-label": "Information about Atkinson Place including utilities, civic participation, and education",
+        "descriptiveLabel": "Information about Atkinson Place including utilities, civic participation, and education",
         "label": "Information",
         "href": "/information/"
     }
