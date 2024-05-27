@@ -11,6 +11,7 @@ export default function (data) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>${data.title}</title>
         <link rel="stylesheet" href="/main.css">
+        <link rel="icon" type="image/png" href="/favicon.png">
     </head>
     <body>
         ${this.alertFn(data)}
