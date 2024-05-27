@@ -15,13 +15,19 @@ body {
 }
 
 body>header {
-    background-image: url(images/northward.jpg);
+    background-image: url(/images/northward.mobile.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     font-family: var(--font-family-serif);
     height: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    body>header {
+        background-image: url(/images/northward.desktop.jpg);
+    }
 }
 
 body>header section {
