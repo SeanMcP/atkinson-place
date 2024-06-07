@@ -15,6 +15,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway. Here are s
 
 | Results                     |
 | --------------------------- |
+|**The Beatles** or The Rolling Stones|
 | **Sweet** or Salty          |
 | Sandals or **Sneakers**     |
 | Pepperoni or **Cheese**     |
