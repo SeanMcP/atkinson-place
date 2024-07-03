@@ -9,7 +9,12 @@
     },
     {
         "descriptiveLabel": "Information about Atkinson Place including utilities, civic participation, and education",
-        "label": "Information",
+        "label": "Info",
         "href": "/information/"
+    },
+    {
+        "descriptiveLabel": "Driveway survey results from 1852 Atkinson Place",
+        "label": "Surveys",
+        "href": "/surveys/"
     }
 ]
