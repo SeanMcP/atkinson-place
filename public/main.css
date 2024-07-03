@@ -21,7 +21,7 @@ body>header {
     display: flex;
     flex-direction: column;
     font-family: var(--font-family-serif);
-    height: 300px;
+    height: 50vh;
 }
 
 @media screen and (min-width: 600px) {
@@ -38,7 +38,7 @@ body>header section {
     margin-bottom: 2.5rem;
     outline: 3px solid var(--text-color);
     outline-offset: 2px;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -51,8 +51,8 @@ body>header section div:first-child {
 body>nav {
     background-color: var(--text-color);
     display: flex;
-    gap: 1rem;
-    padding: 0.5rem;
+    gap: 1.5rem;
+    padding: 1.5rem;
 }
 
 body>nav a {
@@ -69,13 +69,19 @@ body>nav a:is(:focus, :hover):not(:active, [aria-current]) {
     text-decoration-style: dotted;
 }
 
+body>nav a:first-of-type {
+    font-family: var(--font-family-serif);
+    font-weight: bold;
+    margin-inline-end: auto;
+}
+
 body>main {
     flex: 1;
 }
 
 body>footer {
     border-top: 1px solid #ddd;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 h1,
@@ -103,9 +109,9 @@ li+li {
     line-height: 1.4;
     max-width: 80ch;
     margin-inline: auto;
-    padding-block: 2rem;
-    padding-inline: 1rem;
-    width: calc(100% - 2rem);
+    padding-block: 3rem;
+    padding-inline: 1.5rem;
+    width: calc(100% - 3rem);
 }
 
 table {
@@ -147,6 +153,20 @@ table th {
     padding-inline-start: 0;
 }
 
+.calendar-sc li {
+    align-items: center;
+    display: flex;
+    gap: 0.5ch;
+}
+
 .calendar-sc [data-past] {
     opacity: 0.675;
+}
+
+.calendar-sc [data-past]::before {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    content: "Past";
+    font-size: small;
+    padding: 0 0.5ch;
 }
