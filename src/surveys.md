@@ -7,6 +7,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway. Here are s
 
 | Results                                         |
 | ----------------------------------------------- |
+| Costco or **Sam's Club** |
 | Watching the Olympics: **USA! USA! USA!** or Nah|
 | Yard sales or **Thrift stores** |
 | Cake or **Pie**                                 |
