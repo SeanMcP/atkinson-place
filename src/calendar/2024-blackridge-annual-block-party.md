@@ -1,5 +1,5 @@
 ---
-date: 2024-09-14T12:00:00-0400
+date: 2024-09-14T12:00:00-04:00
 title: 2024 Blackridge Annual Block Party
 hours: TBD
 ---
