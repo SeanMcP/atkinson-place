@@ -8,6 +8,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway. Here are s
 | Results                                            |
 | -------------------------------------------------- |
 | Corn on the cob: Spiral, **Typewriter**, or Random |
+| **Root beer** or Ginger ale                        |
 | Costco or **Sam's Club**                           |
 | Watching the Olympics: **USA! USA! USA!** or Nah   |
 | Yard sales or **Thrift stores**                    |
