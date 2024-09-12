@@ -16,9 +16,14 @@ export default function (data) {
     </head>
     <body>
         ${this.alertFn(data)}
-        <nav>${joinMap(data.mainNavigation, link => `
-            <a ${data.page.url === link.href ? "aria-current=page" : ""} ${link.descriptiveLabel ? `aria-label="${link.descriptiveLabel}"` : ""} href="${link.href}">${link.label}</a>
-        `)}</nav>
+        <nav>
+            <a href="/" ${data.page.url === "/" ? "aria-current=page" : ""}>Atkinson Place</a>
+            <div>
+                ${joinMap(data.mainNavigation, link => `
+                    <a ${data.page.url === link.href ? "aria-current=page" : ""} ${link.descriptiveLabel ? `aria-label="${link.descriptiveLabel}"` : ""} href="${link.href}">${link.label}</a>
+                `)}
+            </div>
+        </nav>
         <header>
             <section>
                 <div>Atkinson Place</div>

@@ -10,7 +10,7 @@ export default function (calendarCollection, length) {
         let itemDate = new Date(item.date);
         return /*html*/`
             <li ${itemDate < buildDate ? "data-past=build" : ""}>
-                <time datetime="${item.date.toISOString()}">${toReadableDate(item.date)}</time> –
+                <time datetime="${item.date.toISOString()}">${toReadableDate(item.date)}</time><br/>
                 <a href="${item.url}">${item.data.title}</a>
             </li>
         `})}
