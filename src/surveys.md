@@ -7,6 +7,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway. Here are s
 
 | Results                                            |
 | -------------------------------------------------- |
+| Android or **Apple**                               |
 | Summer Don't Go! or **Ready For Fall!**            |
 | Corn on the cob: Spiral, **Typewriter**, or Random |
 | **Root beer** or Ginger ale                        |
