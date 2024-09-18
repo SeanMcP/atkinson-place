@@ -3,7 +3,9 @@ layout: page.11ty.js
 title: Driveway survey results
 ---
 
-Anne and Sean at 1852 put chalk surveys at the end of their driveway. Here are some recent results:
+Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyone to participate in.
+
+## 2024 Results
 
 | Results                                            |
 | -------------------------------------------------- |

@@ -24,12 +24,12 @@ title: "Information"
 
 ## Education
 
-- Wilkinsburg School District (K-6)
+- [Wilkinsburg School District](https://www.wilkinsburgschools.org/) (K-6)
   - Kelly Primary School (K-2)
   - Turner Intermediate School (3-6)
-- Westinghouse High School, Pittsburgh Public Schools (7-12)
+- [Westinghouse High School, Pittsburgh Public Schools](https://www.wilkinsburgschools.org/apps/pages/WestinghouseHighSchool) (7-12)
 - Nearby private schools:
-  - Pittsburgh Urban Christian School (K-8)
-  - Sister Thea Bowman Catholic Academy (K-8)
-  - Imani Christian Academy (K-12)
-  - Trinity Christian School (K-12)
+  - [Pittsburgh Urban Christian School](https://pucs.org/) (K-8)
+  - [Sister Thea Bowman Catholic Academy](https://www.stbcanow.org/) (K-8)
+  - [Imani Christian Academy](https://www.imanichristianacademy.org/) (K-12)
+  - [Trinity Christian School](https://trinitychristian.net/) (K-12)
