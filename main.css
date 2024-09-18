@@ -1,8 +1,55 @@
+/* @link https://utopia.fyi/type/calculator?c=320,18,1.125,1240,20,1.2,4,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+:root {
+    --step--2: clamp(0.8681rem, 0.8961rem + -0.0362vw, 0.8889rem);
+    --step--1: clamp(1rem, 0.9855rem + 0.0725vw, 1.0417rem);
+    --step-0: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+    --step-1: clamp(1.2656rem, 1.1841rem + 0.4076vw, 1.5rem);
+    --step-2: clamp(1.4238rem, 1.293rem + 0.6542vw, 1.8rem);
+    --step-3: clamp(1.6018rem, 1.4077rem + 0.9708vw, 2.16rem);
+    --step-4: clamp(1.802rem, 1.5273rem + 1.3739vw, 2.592rem);
+}
+
+@font-face {
+    font-family: "AtkinsonHyperlegible";
+    src: url(/fonts/Atkinson-Hyperlegible-Regular-102a.woff2) format("woff2"),
+        url(/fonts/Atkinson-Hyperlegible-Regular-102.woff) format("woff");
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonHyperlegible";
+    src: url(/fonts/Atkinson-Hyperlegible-Bold-102a.woff2) format("woff2"),
+        url(/fonts/Atkinson-Hyperlegible-Bold-102.woff) format("woff");
+    ;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonHyperlegible";
+    src: url(/fonts/Atkinson-Hyperlegible-Italic-102a.woff2) format("woff2"),
+        url(/fonts/Atkinson-Hyperlegible-Italic-102.woff) format("woff");
+    ;
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AtkinsonHyperlegible";
+    src: url(/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2) format("woff2"),
+        url(/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff) format("woff");
+    ;
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
     --background-color: #fafafa;
     --off-background-color: hsl(0, 0%, 90%);
     --text-color: #161616;
-    --font-family-sans: system-ui, sans-serif;
+    --font-family-sans: "AtkinsonHyperlegible", system-ui, sans-serif;
     --font-family-serif: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
 
     background-color: var(--background-color);
@@ -10,6 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: var(--font-family-sans);
+    font-size: var(--step-0);
     margin: 0;
     min-height: 100vh;
 }
@@ -26,7 +74,6 @@ body>header {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    font-family: var(--font-family-serif);
     height: 50vh;
 }
 
@@ -91,7 +138,6 @@ body>nav a:is(:focus, :hover):not(:active, [aria-current]) {
 }
 
 body>nav a[href="/"] {
-    font-family: var(--font-family-serif);
     font-weight: bold;
 }
 
@@ -116,7 +162,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-family-serif);
+    font-family: var(--font-family-sans);
     font-weight: bold;
     line-height: 1.1;
     margin-block-start: 0;
@@ -124,11 +170,42 @@ h6 {
 }
 
 :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
-    margin-block-start: 2em;
+    margin-block-start: 1.5em;
+}
+
+h1 {
+    font-size: var(--step-4);
+}
+
+h2 {
+    font-size: var(--step-3);
+}
+
+h3 {
+    font-size: var(--step-2);
+}
+
+h4 {
+    font-size: var(--step-1);
+}
+
+h5 {
+    font-size: var(--step-0);
+}
+
+h6 {
+    font-size: var(--step--1);
 }
 
 li+li {
     margin-block-start: 0.25em;
+}
+
+pre {
+    background-color: var(--off-background-color);
+    font-family: monospace;
+    overflow-y: auto;
+    padding: 1rem;
 }
 
 .prose {
@@ -202,5 +279,5 @@ table th {
     color: var(--background-color);
     content: "Past";
     font-size: small;
-    padding: 0 0.5ch;
+    padding: 0.1ch 0.5ch 0
 }
