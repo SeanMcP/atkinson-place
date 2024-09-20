@@ -1,15 +1,14 @@
 import { joinMap } from "../utils.js";
 
 export default function (data) {
-    const heading = data.heading || data.title;
-    console.log(data.page.url)
-    return /*html*/`
+  const heading = data.heading || data.title;
+  return /*html*/`
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="${data.metaDescription || "Information and update from Atkinson Place, a friendly little street on the edge of Blackridge in Wilkinsburg, Pennsylvania"}">
+        <meta name="description" content="${data.metaDescription || "Information and updates from Atkinson Place, a friendly little street on the edge of Blackridge in Wilkinsburg, Pennsylvania"}">
         <title>${data.title}</title>
         <link rel="stylesheet" href="/main.css">
         <link rel="icon" type="image/png" href="/favicon-32x32.png">
