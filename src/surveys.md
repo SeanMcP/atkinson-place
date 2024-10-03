@@ -1,6 +1,6 @@
 ---
 layout: page.11ty.js
-title: Driveway survey results
+title: Driveway surveys
 ---
 
 Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyone to participate in.
