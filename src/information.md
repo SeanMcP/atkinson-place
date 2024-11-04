@@ -15,7 +15,7 @@ title: "Information"
 
 ## Civic
 
-- Borough of Wilkinsburg: Ward 1
+- Borough of Wilkinsburg: Ward 1, District 4
 - Polling station: 1900 Graham Blvd, Wilkinsburg, PA 15235
 - Representation:
   - PA House District 34
