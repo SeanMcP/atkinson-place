@@ -11,7 +11,7 @@ title: "Information"
 - Sewage: Wilkinsburg-Penn Joint Water Authority
 - Trash: City of Pittsburgh (contract with Borough of Wilkinsburg)
 - Recycling: Borough of Wilkinsburg
-- Internet: Comcast or Verizon, _etc_.
+- Internet: Comcast or Verizon
 
 ## Civic
 
