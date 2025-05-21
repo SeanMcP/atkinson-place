@@ -7,9 +7,10 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 
 ## 2025 Results
 
-| Results                  |
-| ------------------------ |
-| **Library** or Bookstore |
+| Results                           |
+| --------------------------------- |
+| **Library** or Bookstore          |
+| **Board games** or **Card games** |
 
 ## 2024 Results
 
