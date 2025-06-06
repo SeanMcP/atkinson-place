@@ -12,6 +12,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | **Library** or Bookstore      |
 | **Board games** or Card games |
 | **Snoopy** or Garfield        |
+| Dumbledore or **Gandalf**     |
 
 ## 2024 Results
 
