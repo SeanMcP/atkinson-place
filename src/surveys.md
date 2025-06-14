@@ -13,6 +13,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | **Board games** or Card games |
 | **Snoopy** or Garfield        |
 | Dumbledore or **Gandalf**     |
+| **Peacock** or Flamingo       |
 
 ## 2024 Results
 
