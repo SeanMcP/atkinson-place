@@ -16,6 +16,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | **Peacock** or Flamingo            |
 | Bigfoot: I Believe or **Not real** |
 | Smoothies or **Milkshakes**        |
+| Tattoos or **No tattoos**          |
 
 ## 2024 Results
 
