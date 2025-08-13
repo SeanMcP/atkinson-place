@@ -19,6 +19,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | Tattoos or **No tattoos**          |
 | **Mermaids** or Unicorns           |
 | KFC or **Chick-fil-A**             |
+| Reality TV or **Game Shows**       |
 
 ## 2024 Results
 
