@@ -21,6 +21,8 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | KFC or **Chick-fil-A**             |
 | Reality TV or **Game Shows**       |
 | **Hoagies** or Subs                |
+| **Knights** or Gladiators          |
+| **Pizza** or Pasta                 |
 
 ## 2024 Results
 
