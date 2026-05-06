@@ -5,6 +5,12 @@ title: Driveway surveys
 
 Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyone to participate in.
 
+## 2026 Results
+
+| Results               |
+| --------------------- |
+| **Muffins** or Scones |
+
 ## 2025 Results
 
 | Results                            |
