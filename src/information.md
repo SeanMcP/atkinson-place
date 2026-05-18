@@ -16,7 +16,7 @@ title: "Information"
 ## Civic
 
 - Borough of Wilkinsburg: Ward 1, District 4
-- Polling station: 1900 Graham Blvd, Wilkinsburg, PA 15235
+- Polling station: Turner Intermediate School, 1833 Laketon Rd, Wilkinsburg, PA 15221 (Formerly 1900 Graham Blvd, Wilkinsburg, PA 15235)
 - Representation:
   - PA House District 34
   - PA Senate District 43
