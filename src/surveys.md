@@ -7,10 +7,12 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 
 ## 2026 Results
 
-| Results               |
-| --------------------- |
-| **Muffins** or Scones |
-| Suppper or **Dinner** |
+| Results                 |
+| ----------------------- |
+| **Muffins** or Scones   |
+| Suppper or **Dinner**   |
+| **Dine in** or Take out |
+| **Van Gogh** or Picasso |
 
 ## 2025 Results
 
