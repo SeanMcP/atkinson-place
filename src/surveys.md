@@ -13,6 +13,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | Suppper or **Dinner**   |
 | **Dine in** or Take out |
 | **Van Gogh** or Picasso |
+| **Jazz** or Classical   |
 
 ## 2025 Results
 
