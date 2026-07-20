@@ -17,6 +17,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | Tigers or **Lions**       |
 | **Sharks** or Dolphins    |
 | **Peaches** or Nectarines |
+| **Target** or Walmart     |
 
 ## 2025 Results
 
