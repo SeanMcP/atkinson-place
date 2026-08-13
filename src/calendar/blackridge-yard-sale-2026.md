@@ -1,5 +1,5 @@
 ---
-date: 2025-07-18T12:00:00-04:00
+date: 2026-07-18T12:00:00-04:00
 title: Blackridge Yard Sale 2026
 hours: 8:00am - 2:00pm
 ---
