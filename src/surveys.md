@@ -7,20 +7,21 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 
 ## 2026 Results
 
-| Results                      |
-| ---------------------------- |
-| **Muffins** or Scones        |
-| Supper or **Dinner**         |
-| **Dine in** or Take out      |
-| **Van Gogh** or Picasso      |
-| **Jazz** or Classical        |
-| Tigers or **Lions**          |
-| **Sharks** or Dolphins       |
-| **Peaches** or Nectarines    |
-| **Target** or Walmart        |
-| **Charcoal** or Propane†     |
-| Broadway Show or **Concert** |
-| Titanic or **Jurassic Park** |
+| Results                                         |
+| ----------------------------------------------- |
+| **Muffins** or Scones                           |
+| Supper or **Dinner**                            |
+| **Dine in** or Take out                         |
+| **Van Gogh** or Picasso                         |
+| **Jazz** or Classical                           |
+| Tigers or **Lions**                             |
+| **Sharks** or Dolphins                          |
+| **Peaches** or Nectarines                       |
+| **Target** or Walmart                           |
+| **Charcoal** or Propane†                        |
+| Broadway Show or **Concert**                    |
+| Titanic or **Jurassic Park**                    |
+| Sylvester Stallone or **Arnold Schwarzenegger** |
 
 ## 2025 Results
 
