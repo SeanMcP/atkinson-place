@@ -22,6 +22,7 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | Broadway Show or **Concert**                    |
 | Titanic or **Jurassic Park**                    |
 | Sylvester Stallone or **Arnold Schwarzenegger** |
+| **Jeopardy** or Wheel of Fortune                |
 
 ## 2025 Results
 
