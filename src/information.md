@@ -28,8 +28,11 @@ title: "Information"
   - Kelly Primary School (K-2)
   - Turner Intermediate School (3-6)
 - [Westinghouse High School, Pittsburgh Public Schools](https://www.wilkinsburgschools.org/apps/pages/WestinghouseHighSchool) (7-12)
+- Nearby charter schools:
+  - [Environmental Charter School](https://www.ecspgh.org/) (K-12)
+  - [Life MALE Steam Academy](https://lifesteam.org/) (6-11)
 - Nearby private schools:
-  - [Pittsburgh Urban Christian School](https://pucs.org/) (K-8)
+  - [Pittsburgh Urban Christian School](https://pucs.org/) (K-5)
   - [Sister Thea Bowman Catholic Academy](https://www.stbcanow.org/) (K-8)
   - [Imani Christian Academy](https://www.imanichristianacademy.org/) (K-12)
   - [Trinity Christian School](https://trinitychristian.net/) (K-12)
