@@ -25,6 +25,8 @@ Anne and Sean at 1852 put chalk surveys at the end of their driveway for everyon
 | **Jeopardy** or Wheel of Fortune                |
 | **Bacon** or Sausage                            |
 | Vegetables or **Fruit**                         |
+| **Couch** or Sofa                               |
+| Manual or **Automatic**                         |
 
 ## 2025 Results
 
