@@ -1,6 +1,6 @@
 ---
 date: 2026-10-31T12:00:00-04:00
-title: Trick or Treat
+title: Trick or Treat 2026
 hours: 5:00pm - 8:00pm
 ---
 
