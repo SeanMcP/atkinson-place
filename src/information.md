@@ -5,19 +5,19 @@ title: "Information"
 
 ## Utilities
 
-- Electric: Duquesne Light
-- Gas: Peoples Natural Gas
-- Water: Wilkinsburg-Penn Joint Water Authority
-- Sewage: Wilkinsburg-Penn Joint Water Authority
-- Trash: City of Pittsburgh (contract with Borough of Wilkinsburg)
-- Recycling: Borough of Wilkinsburg
-- Internet: Comcast or Verizon
+- **Electric**: Duquesne Light
+- **Gas**: Peoples Natural Gas
+- **Water**: Wilkinsburg-Penn Joint Water Authority
+- **Sewage**: Wilkinsburg-Penn Joint Water Authority
+- **Trash**: City of Pittsburgh (contract with Borough of Wilkinsburg)
+- **Recycling**: Borough of Wilkinsburg
+- **Internet**: Comcast or Verizon
 
 ## Civic
 
-- Borough of Wilkinsburg: Ward 1, District 4
-- Polling station: Turner Intermediate School, 1833 Laketon Rd, Wilkinsburg, PA 15221 (Formerly 1900 Graham Blvd, Wilkinsburg, PA 15235)
-- Representation:
+- **Borough of Wilkinsburg**: Ward 1, District 4
+- **Polling station**: Turner Intermediate School, 1833 Laketon Rd, Wilkinsburg, PA 15221 (Formerly 1900 Graham Blvd, Wilkinsburg, PA 15235)
+- **Representation**:
   - PA House District 34
   - PA Senate District 43
   - US House District 17
